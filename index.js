@@ -51,4 +51,4 @@ async function start(files) {
   }
 }
 
-start(['starlights.js'])
+start(['Jinhuyk.js'])
