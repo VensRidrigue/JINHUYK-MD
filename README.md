@@ -76,15 +76,15 @@ _Termux Setup not recommended_
 <table>
   <tr>
     <td>•𝙇𝙤𝙧𝙙 𝐉𝚰𝚴𝚮𝐘𝐔𝐊•</td>
-    <td>Ashaf barry sasaki</td>
+    <td>KING JOHAN 👑</td>
   </tr>
   <tr>
     <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/EMOA4nY.jpeg" width="180"</td>
-    <td><a href="https://github.com/gonfreecss297"><img src="https://i.imgur.com/ehiCeyA.jpeg" width="180"</td>
+    <td><a href="https://github.com/Johanlieb34"><img src="https://i.ibb.co/9vGqjvd/e73455b000b73fbaf184cd5f3630b44e.jpg" width="180"</td>
   </tr>
 </table>
 
-**Deployer via github lui même `.github/workflows/deploye.yml`
+**Deployerhttps: via github lui même `.github/workflows/deploye.yml`
 
 ```bash
 name: Node.js CI
