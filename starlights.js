@@ -120,7 +120,7 @@ logger.level = "fatal"
 global.conn = makeWASocket(connectionOptions)
 
 if (!conn.authState.creds.registered) {
-  const phoneNumber = await question(chalk.blue('Ingresa el número de WhatsApp en el cual estará la Bot\n'))
+  const phoneNumber = await question(chalk.red('enter your bot number\n'))
   
   if (conn.requestPairingCode) {
     let code = await conn.requestPairingCode(phoneNumber)
@@ -174,11 +174,11 @@ async function connectionUpdate(update) {
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode;
 if (reason == 405) {
 await fs.unlinkSync("./sessions/" + "creds.json")
-console.log(chalk.bold.redBright(`Conexión replazada, Por favor espere un momento me voy a reiniciar...\nSi aparecen error vuelve a iniciar con : npm start`)) 
+console.log(chalk.bold.redBright(`Connection replaced, Please wait a moment I will restart...\nIf errors appear, restart with : npm start`)) 
 process.send('reset')}
 if (connection === 'close') {
     if (reason === DisconnectReason.badSession) {
-        conn.logger.error(`Sesión incorrecta, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`)
+        conn.logger.error(`Bad session, please delete the folder ${global.authFile} y escanea nuevamente.`)
     } else if (reason === DisconnectReason.connectionClosed) {
         conn.logger.warn(`Conexión cerrada, reconectando...`)
         await global.reloadHandler(true).catch(console.error)
@@ -186,17 +186,17 @@ if (connection === 'close') {
         conn.logger.warn(`Conexión perdida con el servidor, reconectando...`)
         await global.reloadHandler(true).catch(console.error)
     } else if (reason === DisconnectReason.connectionReplaced) {
-        conn.logger.error(`Conexión reemplazada, se ha abierto otra nueva sesión. Por favor, cierra la sesión actual primero.`)
+        conn.logger.error(`Connection replaced, a new session has been opened. Please log out of the current session first.`)
     } else if (reason === DisconnectReason.loggedOut) {
-        conn.logger.error(`Conexion cerrada, por favor elimina la carpeta ${global.authFile} y escanea nuevamente.`)
+        conn.logger.error(`Connection closed, please delete the folder ${global.authFile} y escanea nuevamente.`)
     } else if (reason === DisconnectReason.restartRequired) {
-        conn.logger.info(`Reinicio necesario, reinicie el servidor si presenta algún problema.`)
+        conn.logger.info(`Reboot required, please reboot the server if any issues occur.`)
         await global.reloadHandler(true).catch(console.error)
     } else if (reason === DisconnectReason.timedOut) {
-        conn.logger.warn(`Tiempo de conexión agotado, reconectando...`)
+        conn.logger.warn(`Connection timed out, reconnecting...`)
         await global.reloadHandler(true).catch(console.error)
     } else {
-        conn.logger.warn(`Razón de desconexión desconocida. ${reason || ''}: ${connection || ''}`)
+        conn.logger.warn(`Unknown disconnection reason. ${reason || ''}: ${connection || ''}`)
         await global.reloadHandler(true).catch(console.error)
     }
 }
