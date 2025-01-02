@@ -84,7 +84,7 @@ smd({
   await _0xf71b5c.reply(await plugins(_0xf71b5c, "install", _0x2b0828, __dirname));
 });
 smd({
-   pattern: "jinhuyk",
+   pattern: "jin",
    desc: "Commande du propriétaire.",
    category: "owner",
    filename: __filename,
@@ -92,8 +92,9 @@ smd({
 }, async (_0x19df48) => {
    try {
      // Réponse du bot avec le message et l'image
-     let message = `Bonjour je suis *JINHUYK-MD* un bot multimédia développé par Kang Jinhyuk ayant une bonne expérience. Je suis toujours en amélioration continue, de nouvelles fonctionnalités arrivent pour plus de fun.`;
      let imageUrl = "https://files.catbox.moe/ys8210.jpg";
+     let message = `Bonjour je suis *JINHUYK-MD* un bot multimédia développé par Kang Jinhyuk ayant une bonne expérience. Je suis toujours en amélioration continue, de nouvelles fonctionnalités arrivent pour plus de fun.`;
+     
      
      // Envoi du message avec l'image
      await _0x19df48.reply(message, { image: { url: imageUrl }, caption: message });
