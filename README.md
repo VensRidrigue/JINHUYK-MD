@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/KangJinhuyk">
-    <img alt="Jinhuyk bot logo" height="400" src="https://files.catbox.moe/59iafh.jpg">
+    <img alt="Jinhuyk bot logo" height="400" src="https://i.imgur.com/c8fqPJS.jpeg">
   </a>
 </p>
 
@@ -79,8 +79,8 @@ _Termux Setup not recommended_
     <td>Ashaf barry sasaki</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/xvYDAsD.jpeg" width="180"</td>
-    <td><a href="https://github.com/BarryAllen100"><img src="https://i.imgur.com/TAGPcMC.jpeg" width="180"</td>
+    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/1YWlaIx.jpeg" width="150"</td>
+    <td><a href="https://github.com/BarryAllen100"><img src="https://i.imgur.com/EMOA4nY.jpeg" width="150"</td>
   </tr>
 </table>
 
@@ -134,13 +134,6 @@ jobs:
 
 **contributors**
 
-```
-SASAKI•fixed Heroku ban
-```
-```
-SASAKI•fixed sleeping problem
-```
-
-* [🧑‍💻 Follow The Ch77a whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41)
+[🧑‍💻  whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41)
 
 
