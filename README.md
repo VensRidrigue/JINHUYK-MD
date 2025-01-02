@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/KangJinhuyk">
-    <img alt="Jinhuyk bot logo" height="400" src="https://files.catbox.moe/ys8210.jpg">
+    <img alt="Jinhuyk bot logo" height="400" src="https://files.catbox.moe/59iafh.jpg">
   </a>
 </p>
 
@@ -24,9 +24,9 @@
  <br>
  <a href='https://github.com/KangJinhuyk/JINHUYK-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
- **GET SESSION ID HERE**
+ GET SESSION ID HERE
  <br>
- <a href='https://jinhuyk-session-1mrq.onrender.com' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
+ <a href='https://unknown-md-sessions-generator-1.onrender.com' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Get session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 **DEPLOY ON HEROKU**
 
@@ -76,15 +76,15 @@ _Termux Setup not recommended_
 <table>
   <tr>
     <td>•𝙇𝙤𝙧𝙙 𝐉𝚰𝚴𝚮𝐘𝐔𝐊•</td>
-    <td>KING JOHAN 👑</td>
+    <td>Ashaf barry sasaki</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/EMOA4nY.jpeg" width="180"</td>
-    <td><a href="https://github.com/Johanlieb34"><img src="https://i.ibb.co/9vGqjvd/e73455b000b73fbaf184cd5f3630b44e.jpg" width="180"</td>
+    <td><a href="https://github.com/KangJinhuyk"><img src="https://i.imgur.com/xvYDAsD.jpeg" width="180"</td>
+    <td><a href="https://github.com/BarryAllen100"><img src="https://i.imgur.com/TAGPcMC.jpeg" width="180"</td>
   </tr>
 </table>
 
-**Deployerhttps: via github lui même `.github/workflows/deploye.yml`
+**Deployer via github lui même `.github/workflows/deploye.yml`
 
 ```bash
 name: Node.js CI
